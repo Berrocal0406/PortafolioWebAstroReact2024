@@ -12,6 +12,7 @@
     "@astrojs/react": "^4.0.0",
     "astro": "^5.0.3",
     "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
     "react-bootstrap": "^2.10.6"
   }
 }
