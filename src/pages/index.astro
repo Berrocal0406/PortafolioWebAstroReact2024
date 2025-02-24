@@ -4,6 +4,7 @@ import Layout from '../layouts/Layout.astro';
 import { NavBar } from '../components/NavBar.jsx';
 import { Banner } from '../components/Banner.jsx';
 import { Skills } from '../components/Skills.jsx';
+import { Project } from '../components/Project.jsx';
 ---
 
 <html lang="es">
@@ -17,6 +18,7 @@ import { Skills } from '../components/Skills.jsx';
       <NavBar client:load />
       <Banner client:load />
       <Skills client:only="react" />
+      <Project client:only="react"/>
     </main>
   </body>
 </html>
