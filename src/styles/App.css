@@ -370,7 +370,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project {
   padding: 80px 0;
   position: relative;
-  background-color: black;
 }
 .project h2 {
   font-size: 45px;
@@ -566,4 +565,76 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .contact form button:hover::before {
   width: 100%;
+}
+
+/* Sobrescribimos estilos en móviles */
+@media (max-width: 768px) {
+  /* A) Ajuste del logo en la navbar */
+  nav.navbar a.navbar-brand {
+    width: 35%; /* o 40%, depende de tu gusto */
+    
+  }
+  nav.navbar {
+    background-color: #121212;
+  }
+  .logo-berrocal {
+    width: 100%; /* para que no desborde en móvil */
+  }
+
+  /* B) Enlaces del navbar */
+  nav.navbar .navbar-nav .nav-link.navbar-link {
+    font-size: 16px; /* más chico en móviles */
+    padding: 0 15px; /* reduce padding, quita el “padding-left: 50%” */
+  }
+
+  /* C) Banner: reduce padding y tamaño de fuente */
+  .banner {
+    padding: 120px 0 60px 0; /* en lugar de 260px */
+    text-align: center;
+  }
+  .banner .tagline{
+    margin-bottom: 30px;
+  }
+  .banner h1 {
+    font-size: 32px; /* en vez de 65px */
+    line-height: 1.2; /* un poco más relajado */
+    padding: 0 0 10px;
+  }
+  .banner p {
+    font-size: 16px;
+    width: 100%; /* para que no quede recortado */
+  }
+  .banner button {
+    font-size: 16px;
+    margin-top: 30px; /* un poco menos */
+  }
+
+  /* D) Skills */
+  .skill-bx {
+    padding: 40px 25px; /* reduce bordes */
+    margin-top: -30px; /* en vez de -60px */
+  }
+  .skill h2 {
+    font-size: 32px;
+  }
+  .skill p {
+    font-size: 16px;
+    margin: 14px 0 50px 0;
+  }
+
+  /* E) Projects */
+  .project h2 {
+    font-size: 32px;
+  }
+  .project p {
+    font-size: 16px;
+    width: 85%; /* en vez de 56%, para no quedar muy angosto */
+  }
+  .project .nav.nav-pills {
+    width: 90%; /* en vez de 72% */
+  }
+  .project .nav.nav-pills .nav-link {
+    font-size: 15px;
+  }
+
 }
