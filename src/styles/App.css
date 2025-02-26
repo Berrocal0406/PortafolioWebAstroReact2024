@@ -492,7 +492,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
-/************ Projects Css ************/
+/************ Contact Css ************/
 .contact {
   background: linear-gradient(90.21deg, #aa367c -5.91%, #4a2fbd 111.58%);
   padding: 60px 0 200px 0;
@@ -566,6 +566,52 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .contact form button:hover::before {
   width: 100%;
+}
+
+/************ Footer Css ************/
+.footer {
+  padding: 40px 0; /* Ajusta el padding para centrar mejor */
+  background-image: url("../assets/img/banner-bg.png");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footer .social-icon {
+  display: flex;
+  justify-content: flex-end; /* Alinea a la izquierda */
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.footer .social-icon a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.footer .social-icon a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  transform: scale(1.1);
+}
+
+.footer .social-icon img {
+  width: 60%;
+}
+
+.footer p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #B8B8B8;
+  letter-spacing: 0.5px;
+  margin-top: 15px;
+  text-align: center; /* Mantiene el texto centrado */
 }
 
 /* Sobrescribimos estilos en móviles */

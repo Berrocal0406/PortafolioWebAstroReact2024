@@ -5,6 +5,8 @@ import { NavBar } from '../components/NavBar.jsx';
 import { Banner } from '../components/Banner.jsx';
 import { Skills } from '../components/Skills.jsx';
 import { Project } from '../components/Project.jsx';
+import { Contact } from '../components/Contact.jsx';
+import { Footer } from '../components/Footer.jsx';
 ---
 
 <html lang="es">
@@ -19,6 +21,8 @@ import { Project } from '../components/Project.jsx';
       <Banner client:load />
       <Skills client:only="react" />
       <Project client:only="react"/>
+      <Contact client:only="react"/>
+      <Footer client:only="react"/>
     </main>
   </body>
 </html>
