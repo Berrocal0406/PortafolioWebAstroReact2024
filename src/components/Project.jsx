@@ -1,9 +1,10 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "../components/ProjectCard.jsx";
 import mindpeace1 from "../assets/img/mindpeace1.png";
-import projImg3 from "../assets/img/project-img3.png";
+import upp_app from "../assets/img/upp_app.png";
+import portfolioAstro from "../assets/img/portfolioAstro.png";
+import wiseCode from "../assets/img/wiseCode.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
-// Omito algunos imports repetidos por brevedad
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 
@@ -11,7 +12,7 @@ export const Project = () => {
   const projects = [
     {
       title: "MindPeace",
-      description: "Design & Development",
+      description: "A platform designed to detect and manage anxiety.",
       imgUrl: mindpeace1.src,
       seeMore: (
         <a
@@ -20,7 +21,37 @@ export const Project = () => {
           rel="noopener noreferrer"
           style={{ color: "white", textDecoration: "underline" }}
         >
-          See More! <i className="bi bi-arrow-right-circle" size={25} />
+          Learn More <i className="bi bi-arrow-right-circle" size={25} />
+        </a>
+      ),
+    },
+    {
+      title: "Portfolio Web (Astro)",
+      description: "A personal web portfolio created with Astro and React.",
+      imgUrl: portfolioAstro.src,
+      seeMore: (
+        <a
+          href="https://github.com/Berrocal0406/PortafolioWebAstroReact2024"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ color: "white", textDecoration: "underline" }}
+        >
+          Learn More <i className="bi bi-arrow-right-circle" size={25} />
+        </a>
+      ),
+    },
+    {
+      title: "Laravel Database (Upp_App)",
+      description: "A small project demonstrating a normalized database using Laravel.",
+      imgUrl: upp_app.src,
+      seeMore: (
+        <a
+          href="https://github.com/Berrocal0406/upp_app"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ color: "white", textDecoration: "underline" }}
+        >
+          Learn More <i className="bi bi-arrow-right-circle" size={25} />
         </a>
       ),
     },
@@ -31,13 +62,11 @@ export const Project = () => {
       <Container>
         <Row>
           <Col size={12}>
-            {/* Aplicamos la prop once para que la animación se dispare solo una vez */}
+            {/* Use once prop to trigger the animation only once */}
             <TrackVisibility once>
               {({ isVisible }) => (
                 <div
-                  className={
-                    isVisible ? "animate__animated animate__zoomIn" : ""
-                  }
+                  className={isVisible ? "animate__animated animate__zoomIn" : ""}
                 >
                   <h2>Projects</h2>
                   <br />
@@ -51,91 +80,62 @@ export const Project = () => {
                         <Nav.Link eventKey="first">Projects</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="second">Tab 2</Nav.Link>
+                        <Nav.Link eventKey="second">Work Experience</Nav.Link>
                       </Nav.Item>
                     </Nav>
 
-                    {/* También podemos colocar TrackVisibility once en la parte que hace la animación slideInUp */}
+                    {/* Animation on tab content */}
                     <TrackVisibility once>
                       {({ isVisible: isVisibleTab }) => (
                         <Tab.Content
                           id="slideInUp"
                           className={
-                            isVisibleTab
-                              ? "animate__animated animate__slideInUp"
-                              : ""
+                            isVisibleTab ? "animate__animated animate__slideInUp" : ""
                           }
                         >
-                          {/* TAB 1 */}
+                          {/* TAB 1: Projects */}
                           <Tab.Pane eventKey="first">
                             <div className="experiencia-laboral">
-                              <h3>Projects</h3>
+                              <h3>My Projects</h3>
                               <p>
-                                Aquí describo brevemente mis roles y logros en
-                                cada empresa, además de las tecnologías y
-                                responsabilidades que tuve a mi cargo.
+                                Below is a brief overview of the projects I've worked on 
+                                throughout my journey as a Software Engineer. <br />
+                                <strong>Click to learn more</strong> about each one!
                               </p>
                               <Row>
                                 {projects.map((project, index) => {
-                                  return (
-                                    <ProjectCard key={index} {...project} />
-                                  );
+                                  return <ProjectCard key={index} {...project} />;
                                 })}
                               </Row>
                             </div>
                           </Tab.Pane>
 
-                          {/* TAB 2: Experiencia Laboral */}
+                          {/* TAB 2: Work Experience */}
                           <Tab.Pane eventKey="second">
                             <div className="experiencia-laboral">
-                              <h3>Experiencia Laboral</h3>
+                              <h3>Work Experience</h3>
                               <p>
-                                Aquí describo brevemente mis roles y logros en
-                                cada empresa, además de las tecnologías y
-                                responsabilidades que tuve a mi cargo.
+                                Below you’ll find an overview of my roles, accomplishments, 
+                                responsibilities, and the technologies I’ve used in different organizations.
                               </p>
                               <Row className="justify-content-center">
                                 <Col md={6}>
                                   <div className="exp-item">
                                     <div className="exp-image">
-                                      <img
-                                        src={projImg3.src}
-                                        alt="Imagen"
-                                      />
+                                      <img src={wiseCode.src} alt="WiseCode Logo" />
                                     </div>
-                                    <h4>Desarrollador Frontend</h4>
-                                    <h5>Empresa XYZ | 2021 - Presente</h5>
-                                    <p>
-                                      - Creación de interfaces responsivas con
-                                      React y Bootstrap <br />
-                                      - Mantenimiento y optimización de
-                                      rendimiento <br />
-                                      - Colaboración con equipos de diseño y
-                                      backend
-                                    </p>
-                                  </div>
-
-                                  <div className="exp-item">
-                                    <h4>Desarrollador Full Stack</h4>
-                                    <h5>Startup ABC | 2019 - 2021</h5>
-                                    <p>
-                                      - Desarrollo y consumo de APIs REST <br />
-                                      - Implementación de bases de datos MySQL{" "}
-                                      <br />
-                                      - Despliegue de aplicaciones en entornos de
-                                      producción
-                                    </p>
-                                  </div>
-
-                                  <div className="exp-item">
-                                    <h4>Intern de Desarrollo</h4>
-                                    <h5>Compañía Demo | 2018 - 2019</h5>
-                                    <p>
-                                      - Soporte en migraciones de proyectos <br />
-                                      - Documentación y testing <br />
-                                      - Aprendizaje de buenas prácticas en equipo
-                                      ágil
-                                    </p>
+                                    <h4>Backend Developer Intern</h4>
+                                    <h5>WiseCode | January 2025 - Present</h5>
+                                    <ul style={{ marginTop: "1rem" }}>
+                                      <li>Bug fixing and system improvements.</li>
+                                      <li>Collaborative work with cross-functional teams.</li>
+                                      <li>Adoption of Scrum methodology for agile development.</li>
+                                      <li>
+                                        Development of CRUD operations, endpoints, and simple functionalities.
+                                      </li>
+                                      <li>Extensive use of the Laravel framework.</li>
+                                      <li>Implementation of Swagger for API documentation.</li>
+                                    </ul>
                                   </div>
                                 </Col>
                               </Row>

@@ -11,11 +11,11 @@ export const Footer = () => {
           <Col size={12} sm={6}>
           </Col> 
             <div className="social-icon">
-              <a href="#"><img src={navIcon1.src} alt="Icon" /></a>
-              <a href="#"><img src={navIcon2.src} alt="Icon" /></a>
-              <a href="#"><img src={navIcon3.src} alt="Icon" /></a>
+              <a href='https://www.linkedin.com/in/alfredo-berrocal-64079a308/'target="_blank" rel="noopener noreferrer"><img src={navIcon1.src} alt="Icon" /></a>
+              <a href='https://github.com/Berrocal0406'target="_blank" rel="noopener noreferrer"><img src={navIcon2.src} alt="Icon" /></a>
+              <a href='https://www.instagram.com/alfredobch.04/'target="_blank" rel="noopener noreferrer"><img src={navIcon3.src} alt="Icon" /></a>
             </div>
-            <p>Copyright 2025. All Rights Reserved</p>
+            <p>© 2025 Berrocal. All rights reserved.  |  Built by Berrocal.</p>
         </Row>
       </Container>
     </footer>
