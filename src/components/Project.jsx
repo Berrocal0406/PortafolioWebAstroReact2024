@@ -99,7 +99,7 @@ export const Project = () => {
                               <h3>My Projects</h3>
                               <p>
                                 Below is a brief overview of the projects I've worked on 
-                                throughout my journey as a Software Engineer. <br />
+                                throughout my journey as a Software Engineer. <br /><br />
                                 <strong>Click to learn more</strong> about each one!
                               </p>
                               <Row>

@@ -15,7 +15,6 @@ export const ProjectCard = ({ title, description, imgUrl, seeMore }) => {
           <span>{description}</span>
           <br></br>
           <br></br>
-          <br></br>
           {seeMore}
         </div>
       </button>
