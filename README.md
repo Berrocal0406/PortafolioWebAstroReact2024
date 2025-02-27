@@ -1,48 +1,55 @@
-# Astro Starter Kit: Basics
+# 🚀 Portafolio Web - Berrocal
 
-```sh
-npm create astro@latest -- --template basics
-```
+Este repositorio contiene el código fuente de mi **portafolio web personal**, diseñado para mostrar mis habilidades, proyectos y experiencia como **Ingeniero de Software**. 
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+---
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## 🌟 Tecnologías Utilizadas
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+- **Framework Frontend:** React + Astro
+- **Estilos:** Tailwind CSS
+- **Despliegue:** Vercel
+---
 
-## 🚀 Project Structure
+## 🎯 Características Principales
 
-Inside of your Astro project, you'll see the following folders and files:
+- ✔️ **Diseño moderno y responsivo** 🖥️📱
+- ✔️ **Sección de habilidades con tecnologías destacadas** 🔧
+- ✔️ **Galería de proyectos con capturas y descripciones** 📸
+- ✔️ **Formulario de contacto interactivo** ✉️
+---
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+## 📸 Capturas del Proyecto
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+### ✨ Página Principal
+![Inicio](ruta_a_tu_imagen)
 
-## 🧞 Commands
+### 🛠️ Sección de Habilidades
+![Habilidades](ruta_a_tu_imagen)
 
-All commands are run from the root of the project, from a terminal:
+### 📂 Portafolio de Proyectos
+![Proyectos](ruta_a_tu_imagen)
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+### 📞 Formulario de Contacto
+![Contacto](ruta_a_tu_imagen)
 
-## 👀 Want to learn more?
+---
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+## 🌍 Despliegue
+Este portafolio está desplegado en **Vercel**, lo que permite actualizaciones rápidas y un rendimiento óptimo.
+
+🔗 **Visita el sitio en vivo:** [https://tuportafolio.vercel.app](https://tuportafolio.vercel.app)
+
+---
+
+## ⚠️ Aviso Legal
+Este portafolio fue desarrollado como un proyecto personal y su código es de libre acceso. Si decides utilizarlo como base para tu propio sitio, no olvides dar crédito. 
+
+Este proyecto toma como base el tutorial de YouTube **"React Project Tutorial: Build a Responsive Portfolio Website w/ Advanced Animations"** de Webdecoded. Puedes ver el video aquí: [https://www.youtube.com/watch?v=hYv6BM2fWd8&t=138s).
+
+💡 **Si te gustó, no dudes en dejar una estrella ⭐ en el repositorio.**
+
+---
+
+¡Gracias por visitar mi portafolio! 😊
+
