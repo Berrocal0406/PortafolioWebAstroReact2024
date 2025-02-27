@@ -1,6 +1,12 @@
 import linux from "../assets/img/linux1.png";
 import python from "../assets/img/python3.png";
-import git from "../assets/img/linux1.png";
+import git from "../assets/img/git1.png";
+import docker from "../assets/img/docker1.png";
+import php from "../assets/img/php1.png";
+import mysql from "../assets/img/mysql1.png";
+import laravel from "../assets/img/laravel2.png";
+import react from "../assets/img/react1.png";
+import github from "../assets/img/github1.png";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import colorSharp from "../assets/img/color-sharp.png"
@@ -48,25 +54,30 @@ export const Skills = () => {
                                 <h5>Git</h5>
                             </div>
                             <div className="item">
-                                <img src={linux.src} alt="Image" />
-                                <h5>Docker</h5>
-                            </div>
-                            <div className="item">
-                                <img src={linux.src} alt="Image" />
+                                <img src={php.src} alt="Image" />
                                 <h5>PHP</h5>
                             </div>
                             <div className="item">
-                                <img src={linux.src} alt="Image" />
+                                <img src={github.src} alt="Image" />
+                                <h5>GitHub</h5>
+                            </div>
+                            <div className="item">
+                                <img src={mysql.src} alt="Image" />
                                 <h5>MySQL</h5>
                             </div>
                             <div className="item">
-                                <img src={linux.src} alt="Image" />
+                                <img src={docker.src} alt="Image" />
+                                <h5>Docker</h5>
+                            </div>
+                            <div className="item">
+                                <img src={laravel.src} alt="Image" />
                                 <h5>Laravel</h5>
                             </div>
                             <div className="item">
-                                <img src={linux.src} alt="Image" />
+                                <img src={react.src} alt="Image" />
                                 <h5>React</h5>
                             </div>
+                            
                         </Carousel>
                     </div>
                 </div>
