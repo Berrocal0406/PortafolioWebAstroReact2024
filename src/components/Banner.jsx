@@ -54,7 +54,7 @@ export const Banner = () => {
                         <span className="tagline">Welcome to my Portfolio</span>
                         <h1>{"Hi I'm Berrocal "}<span className="wrap">{text}</span></h1>
                         <p>I'm a passionate Software Engineer from Mexico</p>
-                        <button onClick={() => console.log('connect')}>Let's connect <i className='bi bi-arrow-right-circle' size={25} /></button>
+                        <button onClick={() => document.getElementById('connect')?.scrollIntoView({ behavior: 'smooth' })}>Let's connect <i className='bi bi-arrow-right-circle' size={25} /></button>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
                         <img src={headerImg.src} alt="Header Img" />
