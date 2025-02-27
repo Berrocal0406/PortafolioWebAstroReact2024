@@ -22,16 +22,16 @@ Este repositorio contiene el código fuente de mi **portafolio web personal**, d
 ## 📸 Capturas del Proyecto
 
 ### ✨ Página Principal
-![Inicio](ruta_a_tu_imagen)
+![Inicio](assets/images/photo1.png)
 
 ### 🛠️ Sección de Habilidades
-![Habilidades](ruta_a_tu_imagen)
+![Habilidades](assets/images/photo2.png)
 
 ### 📂 Portafolio de Proyectos
-![Proyectos](ruta_a_tu_imagen)
+![Proyectos](assets/images/photo3.png)
 
 ### 📞 Formulario de Contacto
-![Contacto](ruta_a_tu_imagen)
+![Contacto](assets/images/photo4.png)
 
 ---
 
