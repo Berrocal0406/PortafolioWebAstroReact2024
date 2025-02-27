@@ -44,11 +44,11 @@ export const NavBar = () =>{
             </Nav>
             <span className='navbar-text'>
                 <div className='social-icon'>
-                    <a href='#'><img src={navIcon1.src} alt=''></img></a>
-                    <a href='#'><img src={navIcon2.src} alt=''></img></a>
-                    <a href='#'><img src={navIcon3.src} alt=''></img></a>
+                    <a href='https://www.linkedin.com/in/alfredo-berrocal-64079a308/'target="_blank" rel="noopener noreferrer"><img src={navIcon1.src} alt=''></img></a>
+                    <a href='https://github.com/Berrocal0406'target="_blank" rel="noopener noreferrer"><img src={navIcon2.src} alt=''></img></a>
+                    <a href='https://www.instagram.com/alfredobch.04/'target="_blank" rel="noopener noreferrer"><img src={navIcon3.src} alt=''></img></a>
                 </div>
-                <button className='vvd' onClick={() => console.log('connect')}><span>Let's Connect</span></button>
+                <button className='vvd' onClick={() => document.getElementById('connect')?.scrollIntoView({ behavior: 'smooth' })}><span>Let's Connect</span></button>
             </span>
             </Navbar.Collapse>
         </Container>
