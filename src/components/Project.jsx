@@ -112,26 +112,38 @@ export const Project = () => {
                           <div className="exp-image">
                             <img src={wiseCode.src} alt="WiseCode Logo" />
                           </div>
-                          <h4>Backend Developer Intern</h4>
-                          <h5>WiseCode | January 2025 - Present</h5>
-                          <ul style={{ marginTop: "1rem" }}>
-                            <li>Bug fixing and system improvements.</li>
-                            <li>
-                              Collaborative work with cross-functional teams.
-                            </li>
-                            <li>
-                              Adoption of Scrum methodology for agile
-                              development.
-                            </li>
-                            <li>
-                              Development of CRUD operations, endpoints, and
-                              simple functionalities.
-                            </li>
-                            <li>Extensive use of the Laravel framework.</li>
-                            <li>
-                              Implementation of Swagger for API documentation.
-                            </li>
-                          </ul>
+                          <div className="exp-tittle">
+                            <h4>FrontEnd Developer Intern</h4>
+                            <h5>WiseCode | January 2025 - Present</h5>
+                          </div>
+                          <div className="exp-content">
+                            <ul style={{ marginTop: "1rem" }}>
+                              <li>
+                                Fixed bugs and made improvements to the system.
+                              </li>
+                              <li>
+                                Worked with cross-functional teams to reach common goals.
+                              </li>
+                              <li>
+                                Used Scrum methodology to follow agile development.
+                              </li>
+                              <li>
+                                Created CRUD interfaces using BackEnd endpoints.
+                              </li>
+                              <li>
+                                Made visual changes to improve the UI and UX.
+                              </li>
+                              <li>
+                                Extensive use of the Angular framework.
+                              </li>
+                              <li>
+                                Deployed the FrontEnd environment many times for the QA team.
+                              </li>
+                              <li>
+                                Joined team meetings to understand new projects, follow new changes, and share improvements.
+                              </li>
+                            </ul>
+                          </div>
                         </div>
                       </Col>
                     </Row>

@@ -6,6 +6,8 @@ import php from "../assets/img/php1.png";
 import mysql from "../assets/img/mysql1.png";
 import laravel from "../assets/img/laravel2.png";
 import react from "../assets/img/react1.png";
+import js from "../assets/img/js.png";
+import angular from "../assets/img/angular.png";
 import github from "../assets/img/github1.png";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
@@ -68,8 +70,8 @@ export const Skills = () => {
                       <h5>Git</h5>
                     </div>
                     <div className="item">
-                      <img src={php.src} alt="Image" />
-                      <h5>PHP</h5>
+                      <img src={js.src} alt="Image" />
+                      <h5>Js</h5>
                     </div>
                     <div className="item">
                       <img src={github.src} alt="Image" />
@@ -80,12 +82,16 @@ export const Skills = () => {
                       <h5>MySQL</h5>
                     </div>
                     <div className="item">
-                      <img src={docker.src} alt="Image" />
-                      <h5>Docker</h5>
+                      <img src={angular.src} alt="Image" />
+                      <h5>Angular</h5>
                     </div>
                     <div className="item">
                       <img src={laravel.src} alt="Image" />
                       <h5>Laravel</h5>
+                    </div>
+                    <div className="item">
+                      <img src={php.src} alt="Image" />
+                      <h5>PHP</h5>
                     </div>
                     <div className="item">
                       <img src={react.src} alt="Image" />
