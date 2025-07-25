@@ -1,14 +1,13 @@
 import linux from "../assets/img/linux1.png";
 import python from "../assets/img/python3.png";
+import excel from "../assets/img/excel.png";
+import sql from "../assets/img/sql.png";
 import git from "../assets/img/git1.png";
-import docker from "../assets/img/docker1.png";
 import php from "../assets/img/php1.png";
 import mysql from "../assets/img/mysql1.png";
 import laravel from "../assets/img/laravel2.png";
-import react from "../assets/img/react1.png";
 import js from "../assets/img/js.png";
 import angular from "../assets/img/angular.png";
-import github from "../assets/img/github1.png";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import colorSharp from "../assets/img/color-sharp.png";
@@ -58,12 +57,24 @@ export const Skills = () => {
                     className="owl-carousel owl-theme skill-slider"
                   >
                     <div className="item">
-                      <img src={linux.src} alt="Image" />
-                      <h5>Linux</h5>
-                    </div>
-                    <div className="item">
                       <img src={python.src} alt="Image" />
                       <h5>Python</h5>
+                    </div>
+                    <div className="item">
+                      <img src={excel.src} alt="Image" />
+                      <h5>Excel</h5>
+                    </div>
+                    <div className="item">
+                      <img src={sql.src} alt="Image" />
+                      <h5>Sql</h5>
+                    </div>
+                    <div className="item">
+                      <img src={mysql.src} alt="Image" />
+                      <h5>MySQL</h5>
+                    </div>
+                    <div className="item">
+                      <img src={linux.src} alt="Image" />
+                      <h5>Linux</h5>
                     </div>
                     <div className="item">
                       <img src={git.src} alt="Image" />
@@ -72,14 +83,6 @@ export const Skills = () => {
                     <div className="item">
                       <img src={js.src} alt="Image" />
                       <h5>Js</h5>
-                    </div>
-                    <div className="item">
-                      <img src={github.src} alt="Image" />
-                      <h5>GitHub</h5>
-                    </div>
-                    <div className="item">
-                      <img src={mysql.src} alt="Image" />
-                      <h5>MySQL</h5>
                     </div>
                     <div className="item">
                       <img src={angular.src} alt="Image" />
@@ -92,10 +95,6 @@ export const Skills = () => {
                     <div className="item">
                       <img src={php.src} alt="Image" />
                       <h5>PHP</h5>
-                    </div>
-                    <div className="item">
-                      <img src={react.src} alt="Image" />
-                      <h5>React</h5>
                     </div>
                   </Carousel>
                 </div>

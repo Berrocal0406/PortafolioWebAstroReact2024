@@ -5,10 +5,26 @@ import upp_app from "../assets/img/upp_app.png";
 import portfolioAstro from "../assets/img/portfolioAstro.png";
 import wiseCode from "../assets/img/wiseCode.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
+import pokedexDashboard from "../assets/img/pokedex_Dashboard.png";
 import "animate.css";
 
 export const Project = () => {
   const projects = [
+    {
+      title: "Pokedex Tableau Dashboard",
+      description: "Interactive dashboard developed in Tableau Public.",
+      imgUrl: pokedexDashboard.src,
+      seeMore: (
+        <a
+          href="https://github.com/Berrocal0406/Pokedex_Dashboard_Tableau"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ color: "white", textDecoration: "underline" }}
+        >
+          Learn More <i className="bi bi-arrow-right-circle" size={25} />
+        </a>
+      ),
+    },
     {
       title: "MindPeace",
       description: "A platform designed to detect and manage anxiety.",
@@ -114,7 +130,7 @@ export const Project = () => {
                           </div>
                           <div className="exp-tittle">
                             <h4>FrontEnd Developer Intern</h4>
-                            <h5>WiseCode | January 2025 - Present</h5>
+                            <h5>WiseCode | January 2025 - August 2025</h5>
                           </div>
                           <div className="exp-content">
                             <ul style={{ marginTop: "1rem" }}>
