@@ -1,4 +1,5 @@
 import linux from "../assets/img/linux1.png";
+import Jira from "../assets/img/jira.png";
 import python from "../assets/img/python3.png";
 import excel from "../assets/img/excel.png";
 import sql from "../assets/img/sql.png";
@@ -49,7 +50,7 @@ export const Skills = () => {
                   <h2>Skills</h2>
                   <p>
                     These are the technologies and tools I have learned
-                    throughout my journey as a developer.
+                    throughout my journey as a Engineer.
                   </p>
                   <Carousel
                     responsive={responsive}
@@ -57,12 +58,16 @@ export const Skills = () => {
                     className="owl-carousel owl-theme skill-slider"
                   >
                     <div className="item">
-                      <img src={python.src} alt="Image" />
-                      <h5>Python</h5>
+                      <img src={Jira.src} alt="Image" />
+                      <h5>Jira</h5>
                     </div>
                     <div className="item">
                       <img src={excel.src} alt="Image" />
                       <h5>Excel</h5>
+                    </div>
+                    <div className="item">
+                      <img src={python.src} alt="Image" />
+                      <h5>Python</h5>
                     </div>
                     <div className="item">
                       <img src={sql.src} alt="Image" />
@@ -73,12 +78,12 @@ export const Skills = () => {
                       <h5>MySQL</h5>
                     </div>
                     <div className="item">
-                      <img src={linux.src} alt="Image" />
-                      <h5>Linux</h5>
-                    </div>
-                    <div className="item">
                       <img src={git.src} alt="Image" />
                       <h5>Git</h5>
+                    </div>
+                    <div className="item">
+                      <img src={linux.src} alt="Image" />
+                      <h5>Linux</h5>
                     </div>
                     <div className="item">
                       <img src={js.src} alt="Image" />
