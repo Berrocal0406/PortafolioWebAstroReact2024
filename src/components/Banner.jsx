@@ -52,7 +52,7 @@ export const Banner = () => {
                     <Col xs={12} md={6} xl={7}>
                         <span className="tagline">Welcome to my Portfolio</span>
                         <h1>{"Hi I'm Berrocal "}<span className="wrap">{text}</span></h1>
-                        <p>I'm a passionate Business Analyst Aspirant from Mexico</p>
+                        <p>I'm a passionate Student from Mexico</p>
                         {/* <p>| Exploring Data Analysis 🚀</p> */}
                         <button onClick={() => document.getElementById('connect')?.scrollIntoView({ behavior: 'smooth' })}>Let's connect <i className='bi bi-arrow-right-circle' size={25} /></button>
                     </Col>
