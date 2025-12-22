@@ -6,10 +6,27 @@ import portfolioAstro from "../assets/img/portfolioAstro.png";
 import wiseCode from "../assets/img/wiseCode.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import pokedexDashboard from "../assets/img/pokedex_Dashboard.png";
+import SqlNotesImage from "../assets/img/SqlNotes.png";
+import MonedaAyuntamientoPachuca from "../assets/img/MonedaAyuntamientoPachuca.png";
 import "animate.css";
 
 export const Project = () => {
   const projects = [
+    {
+      title: "SQL Notes — From Basics to Advanced",
+      description: "This repository accompanies my personal SQL notes, where I document the language from the fundamentals to advanced concepts.",
+      imgUrl: SqlNotesImage.src,
+      seeMore: (
+        <a
+          href="https://github.com/Berrocal0406/sql-notes"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ color: "white", textDecoration: "underline" }}
+        >
+          Learn More <i className="bi bi-arrow-right-circle" size={25} />
+        </a>
+      ),
+    },
     {
       title: "Pokedex Tableau Dashboard",
       description: "Interactive dashboard developed in Tableau Public.",
@@ -126,6 +143,40 @@ export const Project = () => {
                       <Col md={6}>
                         <div className="exp-item">
                           <div className="exp-image">
+                            <img src={MonedaAyuntamientoPachuca.src} alt="WiseCode Logo" />
+                          </div>
+                          <div className="exp-tittle">
+                            <h4>Digital Consultant | Scholar Internship</h4>
+                            <h5>Municipal Government of <br></br> Pachuca de Soto | October 2025 - Present </h5>
+                          </div>
+                          <div className="exp-content">
+                            <ul style={{ marginTop: "1rem" }}>
+                              <br>
+                              </br>
+                              <li>
+                                Data analysis: extraction, cleaning, and use of logic to build dashboards using INEGI data
+                              </li>
+                              <li>
+                                Development of small systems to speed up administrative tasks.
+                              </li>
+                              <li>
+                                Training staff in the use of current technology tools.
+                              </li>
+                              <li>
+                                Implementation of automations for data extraction and processing.
+                              </li>
+                              <li>
+                                Account management support.
+                              </li>
+                              <br>
+                              </br>
+                            </ul>
+                          </div>
+                        </div>
+                      </Col>
+                      <Col md={6}>
+                        <div className="exp-item">
+                          <div className="exp-image">
                             <img src={wiseCode.src} alt="WiseCode Logo" />
                           </div>
                           <div className="exp-tittle">
@@ -157,6 +208,9 @@ export const Project = () => {
                               </li>
                               <li>
                                 Joined team meetings to understand new projects, follow new changes, and share improvements.
+                              </li>
+                              <li>
+                                Used AWS CodeCommit to update functions.
                               </li>
                             </ul>
                           </div>

@@ -14,9 +14,10 @@ export const Banner = () => {
     const pauseTime = 2000;    // Pausa antes de borrar (ms)
 
     const toRotate = [
-        "Business Analysis Enthusiast",
+        "Data and IA Nerd",
         "Agile Collaborator",
         "Problem Solver",
+        "Business Analysis Enthusiast",
         "A Good Person !"
     ];
 

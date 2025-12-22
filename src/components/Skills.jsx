@@ -58,14 +58,6 @@ export const Skills = () => {
                     className="owl-carousel owl-theme skill-slider"
                   >
                     <div className="item">
-                      <img src={Jira.src} alt="Image" />
-                      <h5>Jira</h5>
-                    </div>
-                    <div className="item">
-                      <img src={excel.src} alt="Image" />
-                      <h5>Excel</h5>
-                    </div>
-                    <div className="item">
                       <img src={python.src} alt="Image" />
                       <h5>Python</h5>
                     </div>
@@ -74,12 +66,20 @@ export const Skills = () => {
                       <h5>Sql</h5>
                     </div>
                     <div className="item">
-                      <img src={mysql.src} alt="Image" />
-                      <h5>MySQL</h5>
+                      <img src={excel.src} alt="Image" />
+                      <h5>Excel</h5>
                     </div>
                     <div className="item">
                       <img src={git.src} alt="Image" />
                       <h5>Git</h5>
+                    </div>
+                    <div className="item">
+                      <img src={mysql.src} alt="Image" />
+                      <h5>MySQL</h5>
+                    </div>
+                    <div className="item">
+                      <img src={Jira.src} alt="Image" />
+                      <h5>Jira</h5>
                     </div>
                     <div className="item">
                       <img src={linux.src} alt="Image" />
