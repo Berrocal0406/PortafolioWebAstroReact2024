@@ -8,10 +8,26 @@ import colorSharp2 from "../assets/img/color-sharp2.png";
 import pokedexDashboard from "../assets/img/pokedex_Dashboard.png";
 import SqlNotesImage from "../assets/img/SqlNotes.png";
 import MonedaAyuntamientoPachuca from "../assets/img/MonedaAyuntamientoPachuca.png";
+import CloudDataVuelos from "../assets/img/cloud_data_pipeline_vuelos.png"
 import "animate.css";
 
 export const Project = () => {
   const projects = [
+    {
+      title: "Cloud Data Pipeline – Análisis Vuelos",
+      description: "Cloud Data pipeline executed locally, following the Medallion pattern (Raw → Silver → Gold) to analyze flight data.",
+      imgUrl: CloudDataVuelos.src,
+      seeMore: (
+        <a
+          href="https://github.com/Berrocal0406/cloud-data-pipeline-vuelos"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ color: "white", textDecoration: "underline" }}
+        >
+          Learn More <i className="bi bi-arrow-right-circle" size={25} />
+        </a>
+      ),
+    },
     {
       title: "SQL Notes — From Basics to Advanced",
       description: "This repository accompanies my personal SQL notes, where I document the language from the fundamentals to advanced concepts.",
