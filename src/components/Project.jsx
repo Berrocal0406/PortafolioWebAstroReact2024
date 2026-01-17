@@ -159,7 +159,7 @@ export const Project = () => {
                       <Col md={6}>
                         <div className="exp-item">
                           <div className="exp-image">
-                            <img src={MonedaAyuntamientoPachuca.src} alt="WiseCode Logo" />
+                            <img src={MonedaAyuntamientoPachuca.src} alt="MonedaAyuntamientoPachuca Logo" />
                           </div>
                           <div className="exp-tittle">
                             <h4>Digital Consultant | Scholar Internship</h4>
@@ -167,8 +167,8 @@ export const Project = () => {
                           </div>
                           <div className="exp-content">
                             <ul style={{ marginTop: "1rem" }}>
-                              <br>
-                              </br>
+                              <br />
+                              <br />
                               <li>
                                 Data analysis: extraction, cleaning, and use of logic to build dashboards using INEGI data
                               </li>
@@ -181,11 +181,8 @@ export const Project = () => {
                               <li>
                                 Implementation of automations for data extraction and processing.
                               </li>
-                              <li>
-                                Account management support.
-                              </li>
-                              <br>
-                              </br>
+                              <br />
+                              <br />
                             </ul>
                           </div>
                         </div>
@@ -196,7 +193,7 @@ export const Project = () => {
                             <img src={wiseCode.src} alt="WiseCode Logo" />
                           </div>
                           <div className="exp-tittle">
-                            <h4>FrontEnd Developer Intern</h4>
+                            <h4>FrontEnd and QA Developer Intern</h4>
                             <h5>WiseCode | January 2025 - August 2025</h5>
                           </div>
                           <div className="exp-content">

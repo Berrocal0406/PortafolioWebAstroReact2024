@@ -9,6 +9,7 @@ import mysql from "../assets/img/mysql1.png";
 import laravel from "../assets/img/laravel2.png";
 import js from "../assets/img/js.png";
 import angular from "../assets/img/angular.png";
+import sql_server from "../assets/img/servidor-sql.png";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import colorSharp from "../assets/img/color-sharp.png";
@@ -58,40 +59,32 @@ export const Skills = () => {
                     className="owl-carousel owl-theme skill-slider"
                   >
                     <div className="item">
-                      <img src={python.src} alt="Image" />
-                      <h5>Python</h5>
+                      <img src={mysql.src} alt="Image" />
+                      <h5>MySQL</h5>
                     </div>
                     <div className="item">
                       <img src={sql.src} alt="Image" />
                       <h5>Sql</h5>
                     </div>
                     <div className="item">
-                      <img src={excel.src} alt="Image" />
-                      <h5>Excel</h5>
+                      <img src={linux.src} alt="Image" />
+                      <h5>Linux</h5>
                     </div>
                     <div className="item">
                       <img src={git.src} alt="Image" />
                       <h5>Git</h5>
                     </div>
                     <div className="item">
-                      <img src={mysql.src} alt="Image" />
-                      <h5>MySQL</h5>
+                      <img src={python.src} alt="Image" />
+                      <h5>Python</h5>
+                    </div>
+                    <div className="item">
+                      <img src={sql_server.src} alt="Image" />
+                      <h5>SQL Server</h5>
                     </div>
                     <div className="item">
                       <img src={Jira.src} alt="Image" />
                       <h5>Jira</h5>
-                    </div>
-                    <div className="item">
-                      <img src={linux.src} alt="Image" />
-                      <h5>Linux</h5>
-                    </div>
-                    <div className="item">
-                      <img src={js.src} alt="Image" />
-                      <h5>Js</h5>
-                    </div>
-                    <div className="item">
-                      <img src={angular.src} alt="Image" />
-                      <h5>Angular</h5>
                     </div>
                     <div className="item">
                       <img src={laravel.src} alt="Image" />
@@ -100,6 +93,18 @@ export const Skills = () => {
                     <div className="item">
                       <img src={php.src} alt="Image" />
                       <h5>PHP</h5>
+                    </div>
+                    <div className="item">
+                      <img src={excel.src} alt="Image" />
+                      <h5>Excel</h5>
+                    </div>
+                    <div className="item">
+                      <img src={js.src} alt="Image" />
+                      <h5>Js</h5>
+                    </div>
+                    <div className="item">
+                      <img src={angular.src} alt="Image" />
+                      <h5>Angular</h5>
                     </div>
                   </Carousel>
                 </div>
