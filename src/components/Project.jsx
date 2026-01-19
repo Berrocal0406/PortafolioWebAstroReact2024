@@ -9,10 +9,26 @@ import pokedexDashboard from "../assets/img/pokedex_Dashboard.png";
 import SqlNotesImage from "../assets/img/SqlNotes.png";
 import MonedaAyuntamientoPachuca from "../assets/img/MonedaAyuntamientoPachuca.png";
 import CloudDataVuelos from "../assets/img/cloud_data_pipeline_vuelos.png"
+import DBAStarterKit from "../assets/img/postgresql-dba-starter-kit.png"
 import "animate.css";
 
 export const Project = () => {
   const projects = [
+    {
+      title: "PostgreSQL DBA Starter Kit (Docker)",
+      description: "Mini practical project to demonstrate DBA basics.",
+      imgUrl: DBAStarterKit.src,
+      seeMore: (
+        <a
+          href="https://github.com/Berrocal0406/postgresql-dba-starter-kit"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ color: "white", textDecoration: "underline" }}
+        >
+          Learn More <i className="bi bi-arrow-right-circle" size={25} />
+        </a>
+      ),
+    },
     {
       title: "Cloud Data Pipeline – Análisis Vuelos",
       description: "Cloud Data pipeline executed locally, following the Medallion pattern (Raw → Silver → Gold) to analyze flight data.",
