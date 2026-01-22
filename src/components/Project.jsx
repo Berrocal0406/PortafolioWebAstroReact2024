@@ -10,10 +10,26 @@ import SqlNotesImage from "../assets/img/SqlNotes.png";
 import MonedaAyuntamientoPachuca from "../assets/img/MonedaAyuntamientoPachuca.png";
 import CloudDataVuelos from "../assets/img/cloud_data_pipeline_vuelos.png"
 import DBAStarterKit from "../assets/img/postgresql-dba-starter-kit.png"
+import QASmokeSuite from "../assets/img/qa-playwright-smoke.png"
 import "animate.css";
 
 export const Project = () => {
   const projects = [
+    {
+      title: "QA Smoke Suite — Playwright (E2E)",
+      description: "QA smoke E2E suite with Playwright (TypeScript) + HTML report",
+      imgUrl: QASmokeSuite.src,
+      seeMore: (
+        <a
+          href="https://github.com/Berrocal0406/qa-playwright-smoke"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ color: "white", textDecoration: "underline" }}
+        >
+          Learn More <i className="bi bi-arrow-right-circle" size={25} />
+        </a>
+      ),
+    },
     {
       title: "PostgreSQL DBA Starter Kit (Docker)",
       description: "Mini practical project to demonstrate DBA basics.",
@@ -178,7 +194,7 @@ export const Project = () => {
                             <img src={MonedaAyuntamientoPachuca.src} alt="MonedaAyuntamientoPachuca Logo" />
                           </div>
                           <div className="exp-tittle">
-                            <h4>Digital Consultant | Scholar Internship</h4>
+                            <h4>Digital Consultant | School Process</h4>
                             <h5>Municipal Government of <br></br> Pachuca de Soto | October 2025 - Present </h5>
                           </div>
                           <div className="exp-content">
@@ -209,7 +225,7 @@ export const Project = () => {
                             <img src={wiseCode.src} alt="WiseCode Logo" />
                           </div>
                           <div className="exp-tittle">
-                            <h4>FrontEnd and QA Developer Intern</h4>
+                            <h4>FrontEnd and QA tester Developer Intern</h4>
                             <h5>WiseCode | January 2025 - August 2025</h5>
                           </div>
                           <div className="exp-content">

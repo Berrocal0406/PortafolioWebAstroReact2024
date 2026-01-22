@@ -10,6 +10,7 @@ import laravel from "../assets/img/laravel2.png";
 import js from "../assets/img/js.png";
 import angular from "../assets/img/angular.png";
 import sql_server from "../assets/img/servidor-sql.png";
+import postman from "../assets/img/postman.png";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import colorSharp from "../assets/img/color-sharp.png";
@@ -67,16 +68,24 @@ export const Skills = () => {
                       <h5>Sql</h5>
                     </div>
                     <div className="item">
-                      <img src={linux.src} alt="Image" />
-                      <h5>Linux</h5>
-                    </div>
-                    <div className="item">
                       <img src={git.src} alt="Image" />
                       <h5>Git</h5>
                     </div>
                     <div className="item">
+                      <img src={postman.src} alt="Image" />
+                      <h5>Postman</h5>
+                    </div>
+                    <div className="item">
                       <img src={python.src} alt="Image" />
                       <h5>Python</h5>
+                    </div>
+                    <div className="item">
+                      <img src={js.src} alt="Image" />
+                      <h5>Js</h5>
+                    </div>
+                    <div className="item">
+                      <img src={linux.src} alt="Image" />
+                      <h5>Linux</h5>
                     </div>
                     <div className="item">
                       <img src={sql_server.src} alt="Image" />
@@ -97,10 +106,6 @@ export const Skills = () => {
                     <div className="item">
                       <img src={excel.src} alt="Image" />
                       <h5>Excel</h5>
-                    </div>
-                    <div className="item">
-                      <img src={js.src} alt="Image" />
-                      <h5>Js</h5>
                     </div>
                     <div className="item">
                       <img src={angular.src} alt="Image" />
