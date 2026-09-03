@@ -17,7 +17,7 @@ export const Banner = () => {
         "Problem Solver",
         "Data and IA Nerd",
         "Agile Collaborator",
-        "Business Analysis Enthusiast",
+        "Quality Engineer",
         "A Good Person !"
     ];
 

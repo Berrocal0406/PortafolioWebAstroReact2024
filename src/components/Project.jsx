@@ -8,6 +8,7 @@ import colorSharp2 from "../assets/img/color-sharp2.png";
 import pokedexDashboard from "../assets/img/pokedex_Dashboard.png";
 import SqlNotesImage from "../assets/img/SqlNotes.png";
 import MonedaAyuntamientoPachuca from "../assets/img/MonedaAyuntamientoPachuca.png";
+import capgeminiLogo from "../assets/img/capgemini.png";
 import CloudDataVuelos from "../assets/img/cloud_data_pipeline_vuelos.png"
 import DBAStarterKit from "../assets/img/postgresql-dba-starter-kit.png"
 import QASmokeSuite from "../assets/img/qa-playwright-smoke.png"
@@ -191,28 +192,101 @@ export const Project = () => {
                       <Col md={6}>
                         <div className="exp-item">
                           <div className="exp-image">
+                            <img src={capgeminiLogo.src} alt="Capgemini Logo" />
+                          </div>
+                          <div className="exp-tittle">
+                            <h4>Quality Assurance Engineer</h4>
+                            <h5>Capgemini ABL <br></br> - Insurance Sector | Jun 2026 - Present</h5>
+                          </div>
+                          <div className="exp-content">
+                            <ul style={{ marginTop: "1rem" }}>
+                              <li>
+                                Created test strategies and test case matrices, and tracked metrics through Azure DevOps, including test evidence, deployment documentation, and certification follow-up, working as a QE within an agile environment under the SAFe methodology.
+                              </li>
+                              <li>
+                                Executed low-level API testing with Bruno, checking database consistency to prevent incidents.
+                              </li>
+                              <li>
+                                Provided data support for the whole team using Spark SQL in Azure Synapse, and extracted/enrolled data through API calls in Bruno.
+                              </li>
+                              <li>
+                                Built custom AI agents with GitHub Copilot (using models like Claude 4.6 Sonnet) to speed up repetitive tasks, such as creating matrices, reports, and ambiguity analysis, while keeping human and business judgment in the process.
+                              </li>
+                              <li>
+                                Worked in bilingual team cells under the SAFe methodology, with 3-week iterations, promoting shift-left testing from the start and coordinating with Devs, POs, Scrum Masters, and external teams.
+                              </li>
+                              <li>
+                                Ran and monitored regression test automation pipelines, coordinating with the Automation team on scenario coverage and results analysis.
+                              </li>
+                              <li>
+                                Gave quality sign-off (QA approval) within the team, coordinating with external teams, InfoSec, and Infrastructure on release requirements for each team iteration.
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </Col>
+                      <Col md={6}>
+                        <div className="exp-item">
+                          <div className="exp-image">
+                            <img src={capgeminiLogo.src} alt="Capgemini Logo" />
+                          </div>
+                          <div className="exp-tittle">
+                            <h4>Junior Software Tester</h4>
+                            <h5>Capgemini Engineering <br></br> - Banking Sector | Mar 2026 - Jun 2026</h5>
+                          </div>
+                          <div className="exp-content">
+                            <ul style={{ marginTop: "1rem" }}>
+                              <li>
+                                Executed manual E2E test cycles for web and mobile applications (Android, iOS, Huawei) in a high-volume banking environment, validating critical functional flows across multiple release stages using ALM and Devin AI.
+                              </li>
+                              <li>
+                                Applied ISTQB (Foundation Level) practices and the STLC methodology within cross-functional work cells, as part of the TCoE (Test Center of Excellence), working with development, business, and operations teams under tight deadlines in a regulated industry.
+                              </li>
+                              <li>
+                                Received introductory technical training in test automation, including an internal framework, Python, Cucumber, Gherkin, AI, and basic Selenium concepts.
+                              </li>
+                              <br />
+                              <br />
+                              <br />
+                              <br />
+                              <br />
+                              <br />
+                              <br />
+                              <br />
+                              <br />
+                              <br />
+                            </ul>
+                          </div>
+                        </div>
+                      </Col>
+                      <Col md={6}>
+                        <div className="exp-item">
+                          <div className="exp-image">
                             <img src={MonedaAyuntamientoPachuca.src} alt="MonedaAyuntamientoPachuca Logo" />
                           </div>
                           <div className="exp-tittle">
                             <h4>Digital Consultant | School Process</h4>
-                            <h5>Municipal Government of <br></br> Pachuca de Soto | October 2025 - Present </h5>
+                            <h5>Municipal Government of <br></br> Pachuca de Soto | Oct 2025 - Feb 2026</h5>
                           </div>
                           <div className="exp-content">
                             <ul style={{ marginTop: "1rem" }}>
                               <br />
+                              <li>
+                                Supported and trained administrative staff in the use of institutional systems and databases.
+                              </li>
+                              <li>
+                                Helped extract, validate, and process data for reports and analysis.
+                              </li>
+                              <li>
+                                Built light automations to optimize administrative tasks related to information handling.
+                              </li>
                               <br />
-                              <li>
-                                Data analysis: extraction, cleaning, and use of logic to build dashboards using INEGI data
-                              </li>
-                              <li>
-                                Development of small systems to speed up administrative tasks.
-                              </li>
-                              <li>
-                                Training staff in the use of current technology tools.
-                              </li>
-                              <li>
-                                Implementation of automations for data extraction and processing.
-                              </li>
+                              <br />
+                              <br />
+                              <br />
+                              <br />
+                              <br />
+                              <br />
                               <br />
                               <br />
                             </ul>
@@ -225,38 +299,33 @@ export const Project = () => {
                             <img src={wiseCode.src} alt="WiseCode Logo" />
                           </div>
                           <div className="exp-tittle">
-                            <h4>FrontEnd and QA tester Developer Intern</h4>
-                            <h5>WiseCode | January 2025 - August 2025</h5>
+                            <h4>Frontend Developer & QA Intern</h4>
+                            <h5>WiseCode | Jan 2025 - Aug 2025</h5>
                           </div>
                           <div className="exp-content">
                             <ul style={{ marginTop: "1rem" }}>
                               <li>
-                                Fixed bugs and made improvements to the system.
+                                Developed and maintained frontend modules in Angular (JavaScript), adding UI improvements and third-party library integrations in a production web application.
                               </li>
                               <li>
-                                Worked with cross-functional teams to reach common goals.
+                                Fixed UI bugs and built API integrations between frontend views and backend services, contributing to the functional quality and visual consistency of the product.
                               </li>
                               <li>
-                                Used Scrum methodology to follow agile development.
+                                Supported QA activities: module testing, functional requirements validation, and bug documentation, gaining early exposure to structured testing practices.
                               </li>
                               <li>
-                                Created CRUD interfaces using BackEnd endpoints.
+                                Reviewed requirements directly with the client.
                               </li>
                               <li>
-                                Made visual changes to improve the UI and UX.
+                                Worked with developers, QA teams, and Product Owners under the Scrum methodology using Jira in a startup environment.
                               </li>
                               <li>
-                                Extensive use of the Angular framework.
+                                Took part in QA environment deployments, backups, and environment validation.
                               </li>
                               <li>
-                                Deployed the FrontEnd environment many times for the QA team.
+                                Received a recommendation letter from the company at the end of the internship.
                               </li>
-                              <li>
-                                Joined team meetings to understand new projects, follow new changes, and share improvements.
-                              </li>
-                              <li>
-                                Used AWS CodeCommit to update functions.
-                              </li>
+                              <br />
                             </ul>
                           </div>
                         </div>
